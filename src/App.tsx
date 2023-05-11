@@ -28,7 +28,7 @@ function App() {
   }, [AppID, StreamID, AppKey, mode])
   return (
     <div className="Page">
-      <PageHeader title="Welcome to the WTN Demo" className="Header" />
+      <PageHeader title="Welcome to the WTN Demo Test" className="Header" />
       <div className="Contrainer">
         { Token ? <Publisher AppID={AppID} StreamID={StreamID} AppKey={AppKey} Token={Token} ></Publisher> : null}
       </div>
